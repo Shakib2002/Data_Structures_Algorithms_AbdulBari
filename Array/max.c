@@ -79,6 +79,12 @@ float Avg(struct Array arr)
       struct Array arr={{2,3,9,16,18,21,28,32,35},10,5};
       
       printf("%d\n",Get(arr,2));
+      Set(&arr,0,15);
+      printf("%d\n",Max(arr));
+      printf("%d\n",Min(arr));
+      printf("%d\n",Sum(arr));
+      printf("%f\n",Avg(arr));
+      
       Display(arr);
 
    return 0;
